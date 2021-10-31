@@ -1,4 +1,4 @@
-import { sum } from '../src';
+import { sum, getObjAttrFromString } from '../src';
 
 describe('blah', () => {
   it('works', () => {

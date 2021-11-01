@@ -10,12 +10,11 @@ describe('[Success] Get object attribute`s value, from a string', () => {
   it('works', () => {
     const object = {
       attr1: {
-        subAttr: 'value 1'
+        subAttr: 'value 1',
       },
-      attr2 : 'value 2' 
-    }
-
-    const string = 'attr1.subAttr'
+      attr2: 'value 2',
+    };
+    const string = 'attr1.subAttr';
 
     expect(getObjAttrFromString(object, string)).toEqual('value 1');
   });
